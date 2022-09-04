@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <script>
+    var grades = {
+      'list' : {'egoing' : 10, 'k8805' : 8, 'sorialgi' : 80}, // 괄호의 차이를 구분 시키기
+                                                                // 따옴표의 차이
+      'show' : function(){
+        for(var name in this.list){
+            console.log(name, this.list[name]);
+        }
+      }   
+     } 
+     grades.show(); 
+  </script>
+</body>
+</html>
